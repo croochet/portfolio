@@ -31,8 +31,8 @@ body {
 }
 
 .caixa {
-  height: 60vh;
   transition: transform 0.3s ease;
+  width: 40vw;
 }
 
 #pic {
@@ -55,4 +55,9 @@ body {
 }
 
 
-
+@media (max-width: 1039px) {
+  .caixa {
+    transition: transform 0.3s ease;
+    width: 80vw;
+  }
+}
